@@ -1,6 +1,6 @@
 from ClassData import DataMahasiswa
 
-class processdatamahasiswa: 
+class processdata: 
     def __init__(self):
         self.daftar_mahasiswa = []
     def Tambah_Mahasiswa(self, nama, nim, nilai):

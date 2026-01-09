@@ -1,8 +1,8 @@
-from class_process import ProcessMahasiswa
+from ProcessMahasiswa import processdata
 
 class ViewMahasiswa:
     def __init__(self):
-        self.proses = ProcessMahasiswa()
+        self.proses = processdata()
 
     def input_data(self):
         while True:

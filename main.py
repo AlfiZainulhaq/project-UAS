@@ -6,4 +6,4 @@ def main():
     view.tampil_data()
 
 if __name__ == "__main__":
-    main()
+    main()("{:<5} {:<20} {:<15} {:<5}".format("No", "Nama" "NIM", "Nilai"))
